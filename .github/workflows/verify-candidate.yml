@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
         with:
           repository: markheck-solutions/governance
-          ref: 2bcd8f3be1ce63d2baaa05910dd9a5158fd6395d
+          ref: 4346b05d60640cbf15c45ff620f8728265b76bd5
           path: governance
           fetch-depth: 1
           persist-credentials: false
@@ -95,7 +95,7 @@ jobs:
             --pull-request "${{ inputs.pull_request }}" \
             --run-id "${{ inputs.run_id }}" \
             --run-attempt "${{ inputs.run_attempt }}" \
-            --evaluator-sha "2bcd8f3be1ce63d2baaa05910dd9a5158fd6395d" \
+            --evaluator-sha "4346b05d60640cbf15c45ff620f8728265b76bd5" \
             --verifier-app-id "${{ vars.GOVERNANCE_VERIFIER_APP_ID }}" \
             --output-directory "${RUNNER_TEMP}/governance-verification"
 

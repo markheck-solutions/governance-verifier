@@ -15,4 +15,4 @@ Required repository configuration:
 The App installation must use selected repositories and only `Actions: read`,
 `Checks: write`, `Contents: read`, `Metadata: read`, and `Pull requests: read`.
 
-Pinned Governance evaluator: `2bcd8f3be1ce63d2baaa05910dd9a5158fd6395d`.
+Pinned Governance evaluator: `4346b05d60640cbf15c45ff620f8728265b76bd5`.
