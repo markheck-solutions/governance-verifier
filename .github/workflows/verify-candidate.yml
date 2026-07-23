@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
         with:
           repository: markheck-solutions/governance
-          ref: a100e7536d4c28bd62b38588deec33969eca63fd
+          ref: 925629cd904653e4e572be6fb2f35417759d5632
           path: governance
           fetch-depth: 1
           persist-credentials: false
@@ -95,7 +95,7 @@ jobs:
           args=(
             --registry "${GITHUB_WORKSPACE}/verifier/enrollments.json"
             --output-directory "${RUNNER_TEMP}/governance-verification"
-            --governance-sha "a100e7536d4c28bd62b38588deec33969eca63fd"
+            --governance-sha "925629cd904653e4e572be6fb2f35417759d5632"
             --verifier-app-id "${{ vars.GOVERNANCE_VERIFIER_APP_ID }}"
           )
           if [[ -n "${DIAGNOSTIC_REPOSITORY}" ]]; then

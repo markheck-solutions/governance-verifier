@@ -18,4 +18,4 @@ The App installation must use selected repositories and only `Actions: read`,
 `enrollments.json` is the explicit repository allowlist. Scheduled and diagnostic
 runs use the same controller; no unenrolled repository is scanned.
 
-Pinned Governance evaluator: `a100e7536d4c28bd62b38588deec33969eca63fd`.
+Pinned Governance evaluator: `925629cd904653e4e572be6fb2f35417759d5632`.
