@@ -2,14 +2,14 @@
   "repositories": [
     {
       "candidate_workflow_path": ".github/workflows/governance-candidate.yml",
-      "configuration_sha256": "177e4b7aad8a8d5813e8153ddde1355f2d8ddfff387c65097056228cea3b7f40",
-      "governance_sha": "925629cd904653e4e572be6fb2f35417759d5632",
+      "configuration_sha256": "d695e74d01b1b808628274120853c3c2002627cb7cae359c48fa3613e7206ca1",
+      "governance_sha": "c07b2ecf831fa2e3c68481a782a7e9e50d9dbc86",
       "repository": "markheck-solutions/governance-runtime-disposable-20260721",
       "repository_id": 1308082085,
       "required_context": "Governance / Authoritative Decision",
       "standard_sha256": "a3808f788f1dcb8c004112bfe64bc92c718a676e4c97e5f81e67a2ef42e73ac9",
       "verifier_app_id": 4378147,
-      "workflow_sha256": "2405125d97e49ba951b563ddd42a868e6e303e60e3c4202beb579b5644967241"
+      "workflow_sha256": "4022f4daeddc6bc7d910cab93289b9be3626b74357ea87e61631790c2f28569b"
     }
   ],
   "schema_version": "1.0"
